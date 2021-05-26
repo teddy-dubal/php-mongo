@@ -11,7 +11,7 @@
 
 namespace Sokil\Mongo;
 
-class Event extends \Symfony\Component\EventDispatcher\Event
+class Event extends \Symfony\Component\EventDispatcher\GenericEvent
 {
     /**
      * @var mixed $target target object, on which event is fired
