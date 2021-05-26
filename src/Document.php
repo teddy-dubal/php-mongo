@@ -549,7 +549,7 @@ class Document extends Structure
 
         $event->setTarget($this);
 
-        return $this->eventDispatcher->dispatch($eventName, $event);
+        return $this->eventDispatcher->dispatch($event,$eventName);
     }
 
     /**
